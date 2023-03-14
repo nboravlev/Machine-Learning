@@ -1,6 +1,6 @@
 # Данный репозиторий содержит примеры решения задач машинного обучения на Python.
 
-### [linear_regression](https://github.com/nboravlev/Machine-Learning/blob/main/HW16_correl%26regress.ipynb "ссылка на код")
+### [Linear Regression](https://github.com/nboravlev/Machine-Learning/blob/main/HW16_correl%26regress.ipynb "ссылка на код")
 
 Построение простой регрессионной модели.
 
@@ -19,7 +19,7 @@
 
 ----------
 
-###[Linear Discriminant Analsis](https://github.com/nboravlev/Machine-Learning/blob/main/Class%26Klaster_boravlevdsu33.ipynb "ссылка на код")
+### [Linear Discriminant Analsis](https://github.com/nboravlev/Machine-Learning/blob/main/Class%26Klaster_boravlevdsu33.ipynb "ссылка на код")
 
 Построение модели LDA.
 
@@ -27,7 +27,7 @@
 
 Исследование проходило с использованием библиотек Python Matplotlib, Pandas, Sklearn.
 
-Исследование включало четыре этапа:
+Исследование включало следующие этапы:
 - подготовка данных;
 - разделение на выборки для обучения и теста;
 - нормализация данных;
@@ -35,3 +35,20 @@
 - прогноз;
 - проверка качества прогноза на тестовых данных;
 - оценка качества модели, дополнительно - применение метода К-средих для поиска оптимального количества классов.
+
+----------
+
+### [Logistic Regression]()
+
+Построение модели логистической регрессии для оценки СМС по признаку СПАМа (SPAM detection). Для обучения модели взят [датасет]('https://raw.githubusercontent.com/obulygin/pyda_homeworks/master/stat_case_study/spam.csv'), который содержит 5572 коротких сообщеия на английском языке.
+
+Исследование включало следующие этапы:
+- подготовка данных;
+- очистка текста;
+- лемматизация;
+- разделение данных на test и train, обучение модели;
+- прогноз;
+- проверка качества прогноза на тестовых данных, построение матрицы ошибок;
+- оценка качества модели, создаие датафрейма, в котором содержатся ошибочно классифицированые сообщеия.
+
+Исследование проходило с использованием библиотек и модулей Python: pandas, glob, re, nltk, skipy, sklearn.
