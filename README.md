@@ -1,4 +1,4 @@
-# Данный репозиторий содержит примеры решения задач машинного обучения в Ptython.
+# Данный репозиторий содержит примеры решения задач машинного обучения на Python.
 
 ### [linear_regression](https://github.com/nboravlev/Machine-Learning/blob/main/HW16_correl%26regress.ipynb "ссылка на код")
 
