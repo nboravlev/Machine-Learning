@@ -19,7 +19,7 @@
 
 ----------
 
-###[Linear Discriminant Analsis]("ссылка на код")
+###[Linear Discriminant Analsis](https://github.com/nboravlev/Machine-Learning/blob/main/Class%26Klaster_boravlevdsu33.ipynb "ссылка на код")
 
 Построение модели LDA.
 
